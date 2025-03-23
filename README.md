@@ -8,29 +8,37 @@ Tool tự động kiểm tra **SQL Injection** trên website. 🚀
 ✅ Lưu kết quả vào **output.txt**.  
 
 ## 🚀 Cách chạy:  
-🔹 Chạy tool: 
+
+### 🔹 Cài đặt thư viện cần thiết:
+```bash
+pip install requests
+
+🔹 Chạy tool:
 python3 sql_scanner_v2.py
+
 🔹 Chọn chế độ:
 Nhập 1 → Quét 1 URL duy nhất.
+
 Nhập 2 → Quét từ danh sách URL trong file targets.txt.
+
 📜 Ví dụ chạy:
+
 Nhập (1) để quét 1 URL, (2) để quét từ file: 1
 Nhập URL mục tiêu (vd: http://example.com/index.php?id=): http://testphp.vulnweb.com/listproducts.php?cat=1
 [🔥] Dính SQLi với payload: ' OR '1'='1
 [🔥] Dính SQLi với payload: ' UNION SELECT null,null--
 [🔥] Dính SQLi với payload: '; DROP TABLE users--
+
 💡 Mở rộng:
 Thêm nhiều payload SQL Injection mạnh hơn.
+
 Hỗ trợ proxy hoặc User-Agent giả mạo để tránh bị phát hiện.
+
 🔥 Tạo bởi pmd-007 😈
 
-4️⃣ **Lưu file lại (`Ctrl + X`, `Y`, `Enter`)**  
+---
 
-5️⃣ **Push lên GitHub:**  
+📌 **Giờ làm theo đúng trình tự này:**  
+1️⃣ **Mở lại README.md để sửa:**  
    ```bash
-   git add README.md
-   git commit -m "Fix README format"
-   git push origin main
-### 🔹 Cài đặt thư viện cần thiết:
-```bash
-pip install requests
+   nano README.md
