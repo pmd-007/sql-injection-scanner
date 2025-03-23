@@ -36,9 +36,3 @@ Hỗ trợ proxy hoặc User-Agent giả mạo để tránh bị phát hiện.
 
 🔥 Tạo bởi pmd-007 😈
 
----
-
-📌 **Giờ làm theo đúng trình tự này:**  
-1️⃣ **Mở lại README.md để sửa:**  
-   ```bash
-   nano README.md
