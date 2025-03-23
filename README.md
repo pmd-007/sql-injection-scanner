@@ -12,7 +12,7 @@ Tool tự động kiểm tra **SQL Injection** trên website. 🚀
 ### 🔹 Cài đặt thư viện cần thiết:
 ```bash
 pip install requests
-
+```
 🔹 Chạy tool:
 ```bash
 python3 sql_scanner_v2.py
